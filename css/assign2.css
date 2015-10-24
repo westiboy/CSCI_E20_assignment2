@@ -8,4 +8,24 @@ body {
 	font-family: Times New Roman, Times, sans-serif;
 	margin: 0;
 	padding: 0;
+	background-color: F4FFFF;
+}
+.wrapper {
+	margin: 0 auto;
+	padding: 1em;
+	border: solid 2px green;
+}
+fieldset {
+	margin-bottom: 1em;
+	margin-right: 1em;
+	background-color: E8FFFF;
+	border: solid 2px red;
+}
+legend {
+	font-weight: bold;
+	border: solid 2px blue;
+}
+label {
+	display: block;
+	border: solid 2px purple;
 }

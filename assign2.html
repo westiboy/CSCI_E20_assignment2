@@ -20,7 +20,7 @@
 			<fieldset>
 				<legend>Search Flashcards</legend>
 				<label for="searchflashcards">Search existing flashcards for word:</label>
-				<input type="search" name="searchflashcards">
+				<input type="search" id="searchflashcards" name="searchflashcards">
 		    </fieldset>
 		    <fieldset>
 		    	<legend>Flashcard Data</legend>
@@ -39,27 +39,27 @@
 		    <fieldset>
 		    	<legend>School and class data (for later reference)</legend>
 		    	<label for="school">School name (e.g. Harvard Extension School)</label>
-		    	<input type="text" id="school" name="school" autocomplete:"on">
+		    	<input type="text" id="school" name="school" autocomplete="on">
 		    	
 		    	<label for="department">Class department (eg CSCI)</label>
-		    	<input type="text" id="department" autocomplete:"on" name="department">
+		    	<input type="text" id="department" autocomplete="on" name="department">
 		    	
 		    	<label for="area">Class Area (eg. E)</label>
-		    	<input type="text" id="area" autocomplete:"on" name="area">
+		    	<input type="text" id="area" autocomplete="on" name="area">
 		    	
 		    	<label for="classnumber">Class number (e.g. 20)</label>
 		    	<input type="text" id="classnumber" name="classnumber">
 		    	
 		    	<label for="semester">Semester</label>
-		    	<input type="text" id="semester" autocomplete:"on" name="semester">
+		    	<input type="text" id="semester" autocomplete="on" name="semester">
 		    	
 		    	<label for="year">Year</label>
-		    	<input type="number" id="year" name="year" maxlength="4" max:"9999" min:"1900" value="2015">
+		    	<input type="number" id="year" name="year" max="9999" min="1900" value="2015">
 		    </fieldset>
 		    <fieldset>
 		    	<legend>Submit</legend>
 		    	<label for="submit">Submit</label>
-		    	<input type="submit" name="submit" value="Submit Flashcard">
+		    	<input type="submit" id="submit" name="submit" value="Submit Flashcard">
 		    </fieldset>
 		</form>
 	</div>
