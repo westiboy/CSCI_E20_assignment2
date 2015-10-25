@@ -78,6 +78,9 @@ span {
 	line-height: 1em;
 	padding-right: .7em;
 }
+p {
+	clear: both;
+}
 .floatleft {
 	float: left;
 }
@@ -91,12 +94,13 @@ span {
 	border: solid 2px red;
 	float: left;
 	position: relative;
+	border-radius: 25px;
+	box-shadow: 20px 10px 10px #777777;
 }
 .clearfloat {
 	clear: both;
 }
 .boxwrapper {
-	border: solid 2px blue;
 	width: 98%;
 	margin: 1em 1em 1em 1em;
 	padding: 1em 1em 1em 1em;
@@ -135,4 +139,6 @@ span {
 div > legend {
 	text-align: center;
 	font-weight: bold;
+	border: none;
+	background-color: transparent;
 }
